@@ -76,6 +76,16 @@ footer {
   padding: 1rem 16px 1.25rem;
 }
 
+/* hero image */
+  .hero-img--cropped {
+    width: 100%;
+    max-width: 900px;
+    height: 380px;      /* banner height */
+    object-fit: cover;  /* crop edges nicely */
+    object-position: center;
+  }
+
+
 /* Small-screen tweaks */
 @media (max-width: 600px) {
   header { flex-direction: column; text-align: center; }
