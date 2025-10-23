@@ -72,7 +72,7 @@ img {
 }
 
 /* Circular team photos (About page only) */
-.about img {
+img.avatar {
     width: 150px;
     height: 150px;
     border-radius: 50%;
