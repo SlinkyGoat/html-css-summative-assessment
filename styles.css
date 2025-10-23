@@ -93,6 +93,31 @@ footer {
   img.avatar { width: 120px; height: 120px; }
 }
 
+form fieldset {
+  display: grid;
+  gap: 0.5rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+}
+
+.btn {
+  margin-top: 0.5rem;
+  padding: 0.7rem 1.1rem;
+  border: none;
+  border-radius: 9px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #2563eb;
+  color: #fff;
+  width: 90px; 
+  justify-self: center;
+}
+
+.btn:hover { opacity: 0.75; }
+.btn:active { opacity: 0.9; }
 
 
 
