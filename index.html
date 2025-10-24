@@ -3,53 +3,74 @@
  <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
 
-  <!-- Favicon -->
+  <title>Apprenti Careers - Home</title>
+
+  <!--SEO-->
+  <meta name="description" content="Registered Apprenticeships that help employers build talent while apprentices learn and earn.">
+
+ <!--Favicon-->
   <link rel="icon" href="assets/apprenti logo.png" type="image/png" sizes="32x32" />
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
+
   <body>
+    <!-- Header: site identity + primary navigation -->
     <header>
-      <img src="assets/apprenti logo.png" alt="Apprenti Logo" />
+      <!-- Logo image: add width/height so the page doesn't jump while loading -->
+      <img
+       src="assets/apprenti logo.png"
+       alt="Apprenti Logo" 
+       width="40"
+       height="40"
+       />
+
+      
       <h1 class="logo">Apprenti Careers</h1>
-      <nav>
-        <a href="#">Home</a>
+
+      <!-- Primary navigation (Home points to the actual file; Home is marked current) -->
+      <nav aria-label="Primary">
+        <a href="./index.html" aria-current="page">Home</a>
         <a href="./about.html">About</a>
         <a href="./contact.html">Contact</a>
       </nav>
     </header>
+
+    <!-- Main content starts -->
     <main>
+      <!-- Clear page headline -->
       <h2>Registered Apprenticeships</h2>
+
+      <!-- Hero section: cropped banner image + subheading -->
       <section>
         <img
           class="hero-img hero-img--cropped"
           src="assets/person-at-computer.jpg"
-          alt="Happy woman working at computer."
-        />
+          alt="Professional working at a computer."
+          width="1200"
+          height="400"
+          />
         <h3>Change the Way You Build Talent</h3>
       </section>
+
       <section>
         <p>
-          Revolutionizing how businesses develop skilled workers through
-          Registered Apprenticeships
+          We help employers develop skilled workers through modern, registered
+          apprenticeships so teams can hire for potential and grow expertise on the job.
         </p>
       </section>
+
       <section>
         <ul>
-          <li>
-            4,500+ Apprentices placed into living wage jobs across the nation.
-          </li>
-          <li>89% of graduates are retained by their employers.</li>
-          <li>
-            $57,000+ Apprentices earn while they learn, gaining valuable
-            hands-on experience.
-          </li>
+          <li><strong>4,500+</strong> apprentices placed into living-wage roles nationwide.</li>
+          <li><strong>89%</strong> graduate retention by employers.</li>
+          <li><strong>$57,000+</strong> earned while learning through hands-on experience.</li>
         </ul>
       </section>
     </main>
+
     <footer>
       <p>&copy; 2025 Website</p>
     </footer>
