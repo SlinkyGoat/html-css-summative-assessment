@@ -7,13 +7,13 @@ export default function Header() {
             <img src={logo} alt="Apprenti Logo" width="40" height="40" />
             <h1 className="logo">Apprenti Careers</h1>
             <nav aria-label="Primary">
-                <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>
+                <NavLink to="/" end>
                     Home
                 </NavLink>
-                <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>
+                <NavLink to="/about">
                     About
                 </NavLink>
-                <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>
+                <NavLink to="/contact">
                     Contact
                 </NavLink>
             </nav>
